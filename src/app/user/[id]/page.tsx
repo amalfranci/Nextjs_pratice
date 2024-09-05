@@ -14,7 +14,7 @@ useEffect(()=>{
 
   const id = params.id;
 console.log(id)
-async function getUser(id:any) {
+async function getUser(id:string) {
 
   const data =await fetch(`https://dummyjson.com/users/${id}`)
 setUserinfo(await data.json())

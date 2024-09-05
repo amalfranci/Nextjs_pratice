@@ -7,7 +7,7 @@ export default function Provider({
   session,
 }: {
   children: React.ReactNode;
-  session: any;
+  session: 
 }): React.ReactNode {
   return <SessionProvider session={session}>{children}</SessionProvider>;
 }
